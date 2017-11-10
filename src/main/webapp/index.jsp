@@ -22,11 +22,11 @@
 		float quadrado = altura * altura;
 		float calculo = peso/quadrado;
 	   
-		if(calculo<18.5){%><h3>Você está magro com esse indice</h3><%}
-		else if(calculo>=18.5 && calculo<25){%><h3>Você está normal com esse indice</h3><%}
-		else if(calculo>=25 && calculo<30) {%><h3>Você está com sobre peso com esse indice</h3><%}
-		else if(calculo>=30 && calculo<40) {%><h3>Você está com obesidade com esse indice</h3><%}
-		else if (calculo>40) {%><h3>Você está com obesidade grave com esse indice</h3><%}
+		if(calculo<18.5){%><h3>VocÃª estÃ¡ magro com esse indice</h3><%}
+		else if(calculo>=18.5 && calculo<25){%><h3>VocÃª estÃ¡ normal com esse indice</h3><%}
+		else if(calculo>=25 && calculo<30) {%><h3>VocÃª estÃ¡ com sobre peso com esse indice</h3><%}
+		else if(calculo>=30 && calculo<40) {%><h3>VocÃª estÃ¡ com obesidade com esse indice</h3><%}
+		else if (calculo>40) {%><h3>VocÃª estÃ¡ com obesidade grave com esse indice</h3><%}
 		
 		//Fim do scriptlet
         %>

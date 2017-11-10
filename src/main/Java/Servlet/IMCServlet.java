@@ -32,19 +32,19 @@ public class IMCServlet extends HttpServlet {
 		float calculo = calculoString == null ? 0 : Float.parseFloat(calculoString);
 		if (calculo != 0) {
 			if(calculo < 18.5){
-				resp.getOutputStream().print("Você está magro com esse indice");
+				resp.getOutputStream().print("VocÃª estÃ¡ magro com esse indice");
 				}
 			else if(calculo>=18.5 && calculo<25){
-				resp.getOutputStream().print("Você está normal com esse indice");
+				resp.getOutputStream().print("VocÃª estÃ¡ normal com esse indice");
 				}
 			else if(calculo>=25 && calculo<30){
-				resp.getOutputStream().print("Você está com sobre peso com esse indice");
+				resp.getOutputStream().print("VocÃª estÃ¡ com sobre peso com esse indice");
 				}
 			else if(calculo>=30 && calculo<40){
-				resp.getOutputStream().print("Você está com obesidade com esse indice");
+				resp.getOutputStream().print("VocÃª estÃ¡ com obesidade com esse indice");
 				}
 			else if (calculo>40){
-				resp.getOutputStream().print("Você está com obesidade grave com esse indice");
+				resp.getOutputStream().print("VocÃª estÃ¡ com obesidade grave com esse indice");
 				}
 		} 
 		resp.getOutputStream().print("</h3>");
